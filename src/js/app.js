@@ -2,13 +2,13 @@
 /* eslint-disable import/named */
 import { Character } from './Character.js';
 import { Bowman } from './1.Bowman.js';
-import { Swordsman } from './2.Swordsman.js';
+import Swordsman from './2.Swordsman.js';
 import { Magician } from './3.Magician.js';
 import { Undead } from './4.Undead.js';
 import { Zombie } from './5.Zombie.js';
 import { Daemon } from './6.Daemon.js';
 
-const character = new Character('Dima', 'Bowman');
+export const character = new Character('Dima', 'Bowman');
 export const bowman = new Bowman('Vasia', 'Bowman');
 const swordsman = new Swordsman('Vasia1', 'Swordsman');
 const magician = new Magician('Vasia2', 'Magician');

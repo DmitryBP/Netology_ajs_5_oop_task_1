@@ -2,7 +2,9 @@
 import { Character } from './Character.js';
 
 export class Daemon extends Character {
-  attack = 10;
-
-  defense = 40;
+  constructor(name) {
+    super(name, 'Daemon');
+    this.attack = 10;
+    this.defense = 40;
+  }
 }

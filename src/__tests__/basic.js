@@ -1,6 +1,7 @@
-/* eslint-disable import/named */
+/* eslint-disable no-new */
+import { bowman } from '../js/app.js';
+import { Character } from '../js/Character.js';
 
-import { character, bowman } from '../js/app.js';
 // import { Bowman } from '../js/1.Bowman.js';
 // import { Swordsman } from '../js/2.Swordsman.js';
 // import { Magician } from '../js/3.Magician.js';
@@ -15,12 +16,12 @@ test('Aтака/Защита - 25/25', () => {
 
 test('Ошибка длины имени', () => {
   expect(() => {
-    character.name = 1;
+    new Character('i', 'Bowerman');
   }).toThrow();
 });
 
 test('Ошибка тип игрока', () => {
   expect(() => {
-    character.type = 'test';
+    new Character('Dima', 'Test');
   }).toThrow();
 });

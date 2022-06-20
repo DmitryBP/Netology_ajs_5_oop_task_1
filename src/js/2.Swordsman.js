@@ -1,8 +1,9 @@
-/* eslint-disable import/prefer-default-export */
 import { Character } from './Character.js';
 
-export class Swordsman extends Character {
-  attack = 40;
-
-  defense = 10;
+export default class Swordsman extends Character {
+  constructor(name) {
+    super(name, 'Swordsman');
+    this.attack = 40;
+    this.defense = 10;
+  }
 }

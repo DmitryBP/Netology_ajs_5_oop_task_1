@@ -2,7 +2,9 @@
 import { Character } from './Character.js';
 
 export class Undead extends Character {
-  attack = 25;
-
-  defense = 25;
+  constructor(name) {
+    super(name, 'Undead');
+    this.attack = 25;
+    this.defense = 25;
+  }
 }
