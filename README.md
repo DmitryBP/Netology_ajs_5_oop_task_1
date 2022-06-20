@@ -1,5 +1,8 @@
+# Netologi-ajs-5-hw-task1
+
+[![Build status](https://ci.appveyor.com/api/projects/status/8rkrs4j5k75e2l5d?svg=true)](https://ci.appveyor.com/project/DmitryBP/netologi-ajs-5-hw-task1)
+
 # WebPack-Template
-[![Build status](https://ci.appveyor.com/api/projects/status/ub0a5lcu7ihmloe3?svg=true)](https://ci.appveyor.com/project/DmitryBP/webpack-template)
 
 # NPM
 ### Подключение
