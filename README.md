@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/t3rkfvrwg1lulkuk?svg=true)](https://ci.appveyor.com/project/DmitryBP/netology-ajs-5-oop-task-1)
+
 ## Классы, наследование
 
 ### Легенда
