@@ -1,26 +1,28 @@
-/* eslint-disable import/prefer-default-export */
-export class Character {
+export default class Character {
   constructor(name, type) {
-    this.name = name;
-    this.type = type;
-    this.health = 100;
-    this.level = 1;
-
-    const types = [
-      'Bowman',
-      'Swordsman',
-      'Magician',
-      'Undead',
-      'Zombie',
-      'Daemon',
+    const typeList = [
+      "Bowman",
+      "Swordsman",
+      "Magician",
+      "Undead",
+      "Zombie",
+      "Daemon",
     ];
 
-    if (name.length < 2 || name.length > 10) {
-      throw new Error('Не подходящий формат имени');
+    if (name.length >= 2 && name.length <= 10) {
+      this.name = name;
+    } else {
+      throw new Error("Имя должно быть от 2 до 10 символов");
     }
 
-    if (!types.includes(type)) {
-      throw new Error('Не подходящий тип игрока');
+    if (typeList.includes(type)) {
+      this.type = type;
+    } else {
+      throw new Error("Недопустимый тип персонажа");
     }
+
+    this.health = 100;
+    this.level = 1;
   }
 }
+
