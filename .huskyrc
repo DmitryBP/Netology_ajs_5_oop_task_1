@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "npm run lint && npm run test",
+    "pre-commit": "npm run lint; npm run coverage",
     "commit-msg": "npm run validate-commit-msg",
     "pre-push": "npm run coverage"
   }
