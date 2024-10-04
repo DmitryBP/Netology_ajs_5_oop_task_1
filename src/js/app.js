@@ -1,4 +1,5 @@
-// /* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars */
+
 import Bowman from "./Bowman";
 import Character from "./Character";
 import Deamon from "./Daemon";
